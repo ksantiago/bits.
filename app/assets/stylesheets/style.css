@@ -43,6 +43,11 @@ h2 {
   box-shadow: 1px 1px #394C5F;
 }
 
+.box:hover {
+  background-color: #35485A;
+  color: #FFFFFF;
+}
+
 .box-text img {
   max-width: 100%;
 }

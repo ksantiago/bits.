@@ -10,11 +10,11 @@ var app = app || {};
 
 $(document).ready(function() {
   // $(".container").on("click", app.goPom);
-  $('.box').mouseover(function(){
-    $('.box').css("background-color", "yellow");
-  });
+  // $('.box').mouseover(function(){
+  //   $('.box').css("background-color", "yellow");
+  // });
 
-  $('.box').mouseout(function(){
-    $('.box').css("background-color", "#FFFFFF")
-  });
+  // $('.box').mouseout(function(){
+  //   $('.box').css("background-color", "#FFFFFF")
+  // });
 });
