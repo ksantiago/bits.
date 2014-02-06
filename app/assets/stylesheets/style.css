@@ -13,6 +13,8 @@ body {
   font-family: Helvetica;
   font-size: .9em;
   line-height: 1.6;
+  width: 100%;
+  height: 2000px;
 }
 
 h2 {
@@ -46,8 +48,35 @@ h2 {
 .box:hover {
   background-color: #35485A;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .box-text img {
   max-width: 100%;
+}
+
+/***********************************************/
+/*              NAV BAR                        */
+/***********************************************/
+
+#nav {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  position: fixed;
+}
+
+#nav a {
+  text-decoration: none;
+  font-size: .9em;
+  line-height: 1.6;
+  color: #35485A;
+}
+
+#nav a:hover {
+  color: #3E82B6;
+}
+
+#nav a:active {
+  color: #151515;
 }
