@@ -13,19 +13,21 @@ $(document).ready(function(){
           animationOptions: {
               duration: 750,
               easing: 'linear',
-              queue: false,
+              queue: false
           }
       });
     });
 
-    $('#nav a').on("click", function(){
+    // when clicking on nav link, store data-filter attribute in 'selector'
+    $('#nav a').on("click", function(e){
+      e.preventDefault();
       var selector = $(this).attr('data-filter');
+      // filters boxes using selector variable
       $container.isotope({
         filter: selector,
         animationOptions: {
           duration: 750,
-          easing: 'linear',
-          queue: false
+          easing: 'linear'
         }
       })
     });
