@@ -1,7 +1,6 @@
 var app = app || {};
 
 
-
 $(document).ready(function(){
     var $container = $('#content');
 
@@ -32,7 +31,5 @@ $(document).ready(function(){
       })
     });
 
-    $('h1').on("click", function(){
-      console.log("pssst, you're cute!");
-    });
+    $(window)
 });
