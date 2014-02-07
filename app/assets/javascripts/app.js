@@ -4,9 +4,9 @@ var app = app || {};
 $(document).ready(function(){
     var $container = $('#content');
 
-    while ($(window).width() <= 1133) {
-      console.log('yay');
-    }
+    // while ($(window).width() <= 1133) {
+    //   console.log('yay');
+    // }
 
     // the imagesLoaded function allows you to wait for all images to load before loading isotope so that elements don't overlap
     $container.imagesLoaded(function() {
